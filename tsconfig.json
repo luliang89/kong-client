@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "experimentalDecorators": true,
+        "outDir": "build/",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "newLine": "CRLF",
+        "alwaysStrict":true,
+        "types" : ["node"]
+    }
+}

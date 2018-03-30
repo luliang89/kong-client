@@ -1,0 +1,27 @@
+{
+  "name": "ichipsea.kong-client",
+  "version": "0.0.31",
+  "description": "",
+  "main": "./build/src/index.js",
+  "types": "./build/src/index.d.ts",
+  "scripts": {
+    "build": "rm -rf build && tsc",
+    "test": "npm run build && mocha build/test",
+    "publish-private": "npm run build && npm version patch && npm publish --registry http://192.168.0.65:4873/"
+  },
+  "author": "芯海互联",
+  "maintainers": [
+    {
+      "name": "lu liang",
+      "email": "lu_liang@qq.com"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^9.4.0",
+    "mocha": "^3.5.0",
+    "typescript": "^2.4.2"
+  }
+}
