@@ -1,6 +1,6 @@
 {
   "name": "ichipsea.kong-client",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "",
   "main": "./build/src/index.js",
   "types": "./build/src/index.d.ts",
