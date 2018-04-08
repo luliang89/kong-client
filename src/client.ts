@@ -73,7 +73,7 @@ export class Client {
         this.auth.digest(httpMethod, path, headers, this.options.validteBody ? body : null);
 
         if (query) {
-            path = (path.indexOf('?') === -1 ? '?' : '&') + querystring.stringify(query);
+            path += (path.indexOf('?') === -1 ? '?' : '&') + querystring.stringify(query);
         }
 
         let options = {
